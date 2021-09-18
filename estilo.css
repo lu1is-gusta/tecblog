@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #A9A9A9 ;
+}
+
+img{
+	width: 530px;
+}
+
+
+/*---------------Links---------------*/
+a{
+	text-decoration: none;
+	
+}
+
+#cabeça a:link, #cabeça a:visited{	
+	color: white;
+	padding: 10px;
+}
+
+#cabeça a:hover{
+	background-color: white;
+	color: #FFBF00;
+	text-decoration: none;
+}
+
+a:link, a:visited{	
+	color: #FFBF00;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+/*---------------Menu---------------*/
+#cabeça{
+	background-color: #FFBF00;
+	text-align: center;
+	padding: 20px;
+}
+
+#titulo1parte1{
+	color: black;
+	padding: 15px;
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+}
+
+#titulo1parte2{
+	color: white;
+}
+
+
+/*---------------Conteúdo---------------*/
+#corpo{
+	width: 900px;
+	margin: 15px auto;
+}
+
+#ladoesquerdo{
+	width: 570px;
+	float: left;
+}
+
+.cladoesquerdo{
+	background-color: white;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+
+.h2es{
+	color: #FFBF00;
+}
+
+#ladodireito{
+	width: 250px;
+	float: right;
+}
+
+.cladodireito{
+	background-color: white;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+
+.h2di{
+	background-color: #A9A9A9;
+	color: #555D50;
+	padding: 5px;
+}
+
+
+/*---------------Rodapé---------------*/
+#ultimaparte{
+	clear: both;
+	text-align: center;
+	background-color: #778899;
+	padding: 10px;
+	font-size: 20px;
+}
